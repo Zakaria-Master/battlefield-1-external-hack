@@ -1,6 +1,5 @@
 #include "Includes.h"
 #include <iostream>
-MoaRpm* rpm = NULL;
 
 int main()
 {
