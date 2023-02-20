@@ -3,8 +3,6 @@
 
 int main()
 {
-	uint64_t BaseAddress = rpm->ImageBase();
-
 	uint64_t LocalPlayer = GetLocalPlayer();
 	uint64_t ClientPlayer  =  rpm->read<uint64_t>(LocalPlayer + 0x0018);
 	std::cout << rpm->readString(ClientPlayer, 24);
