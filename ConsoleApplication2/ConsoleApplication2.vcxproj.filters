@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Obfuscationmanager.cpp">
+      <Filter>fb</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="fb">
+      <UniqueIdentifier>{1e667fdb-e511-47ef-86fa-6ffb3e2c9da5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Obfuscationmgr.h">
+      <Filter>fb</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="Offsets.h" />
+  </ItemGroup>
+</Project>
